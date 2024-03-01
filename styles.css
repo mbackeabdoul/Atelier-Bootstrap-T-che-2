@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid black; */
+}
+
+
+   .navbar-brand{
+    margin-left: 8%;
+    font-weight: 800;
+    font-size: 30px;
+
+    
+}
+.navbar ul{
+    color: black;
+
+
+
+}
+
+.navbar-brand span{
+    color: blue;
+    font-size: 30px;
+}
+#background{
+    background-image: url(/image/faible-angle-vue-immeuble-commercial-verre-reflet-nuages-ciel-dessus_181624-2641.jpg);
+    height: 450px;
+}
+
+.title{
+    margin-top: 10%;
+    font-size: 4rem;
+
+}
+.title-2{
+    font-size: 5rem;
+    color: rgb(66, 66, 173);
+}
+.para{
+    margin-top: 1%;
+    font-size: 23px;
+    color:#555555;
+}
+
+.play-img{
+    width: 40px;
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    
+}
+#navbar-bg i{
+    color: white;
+}
+
+.btn{
+    width: 13%;
+    font-size: 16px;
+}
+.Watch{
+    color: black;
+    margin-left: 1%;
+    font-size: 20px;
+
+}
+#card i{
+    color:#106eea;
+}
+/* .p-2{
+    padding:20px;
+} */
+.about{
+    color: #106eea;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 70px;
+    text-transform: uppercase;
+
+}
+.about2{
+    color: #106eea;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#flex1 p{
+    color: #444444;
+    font-weight: 800;
+}
+.blue i{
+    color: #106eea;
+     background-color:#ffff; 
+    padding: 15px; 
+    border-radius: 50%;
+}
+.happy{
+    background-color: rgb(238, 229, 229);
+    padding: 20px;
+}
+
+.primary i{
+    color: white;
+    background-color: blue; 
+   padding: 10px; 
+   border-radius: 50%;
+   position: relative;
+   top: 17px;
+   border: 3px solid #Fff;
+
+}
+
+#align{
+    background-color: #f6f9fe;
+}
+.back h1{
+    padding:8px; 
+    border-radius:50%;
+    font-weight: 700;
+    font-size: 30px;
+    /* background-color:#555555; */
+    color: #106eea;
+}
+
+.Check span{
+    color: #106eea;
+}
+
+.imgg{
+    width: 100px;
+}
+.dribblee i{
+    background-color:#F1F6FE;
+    color: #106eea;
+}
+
+#carouselExampleCaptions{
+    background-image: url(/image/salle-conference-est-vide_1048944-1954713.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #f6f9fe;
+}
+
+#carouselExampleCaptions .carousel-item img{
+    height: 100px;
+    width: 100px;
+}
+
+ /* .carousel img{
+    width: 90px;
+    border: 5px solid #555555;
+    border-radius: 50%;
+} */
+/* .carousel{
+    padding-top: 10%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+#Contact .location i{
+    padding: 11px;
+    background-color:#f6f9fe;
+    border: 2px dotted rgb(170, 170, 191);
+    border-radius: 50%;
+}
+
+/* .form-center{
+    display: flex;
+    justify-content: center;
+} */
+/* .form-center input{
+    width: 450px;
+    padding: 8px;
+} */
+
+
+#footer .font i{
+    background-color: #106eea;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.chevron i{
+    font-size: 8px;
+    color:#106eea;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+.ci-suuf {
+     position: absolute;
+
+}
