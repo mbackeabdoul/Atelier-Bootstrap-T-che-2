@@ -23,9 +23,10 @@
     color: blue;
     font-size: 30px;
 }
-#background{
+.background{
     background-image: url(/image/faible-angle-vue-immeuble-commercial-verre-reflet-nuages-ciel-dessus_181624-2641.jpg);
     height: 450px;
+    background-size: cover;
 }
 
 .title{
@@ -51,6 +52,7 @@
 }
 #navbar-bg i{
     color: white;
+    padding: 5px;
 }
 
 .btn{
@@ -197,6 +199,10 @@
     z-index: -1;
 }
 .ci-suuf {
-     position: absolute;
+    display: none;
 
+}
+
+.ci-suuf i {
+    display: none;
 }
