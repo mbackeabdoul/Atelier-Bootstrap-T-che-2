@@ -24,7 +24,7 @@
     font-size: 30px;
 }
 .background{
-    background-image: url(/image/faible-angle-vue-immeuble-commercial-verre-reflet-nuages-ciel-dessus_181624-2641.jpg);
+    background-image: url(./image/faible-angle-vue-immeuble-commercial-verre-reflet-nuages-ciel-dessus_181624-2641.jpg);
     height: 450px;
     background-size: cover;
 }
@@ -136,7 +136,7 @@
 }
 
 #carouselExampleCaptions{
-    background-image: url(/image/salle-conference-est-vide_1048944-1954713.avif);
+    background-image: url(./image/salle-conference-est-vide_1048944-1954713.avif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
