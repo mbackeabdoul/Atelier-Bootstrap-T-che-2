@@ -4,7 +4,11 @@
     /* outline: 1px solid black; */
 }
 
-
+/*  */
+/* .hover :hover{
+    transition:2s;
+} */
+/*  */
    .navbar-brand{
     margin-left: 8%;
     font-weight: 800;
@@ -18,15 +22,19 @@
 
 
 }
-
 .navbar-brand span{
     color: blue;
     font-size: 30px;
 }
+
+.das{
+    position: sticky;
+}
 .background{
     background-image: url(./image/faible-angle-vue-immeuble-commercial-verre-reflet-nuages-ciel-dessus_181624-2641.jpg);
-    height: 450px;
+    height:500px;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .title{
@@ -56,7 +64,6 @@
 }
 
 .btn{
-    width: 13%;
     font-size: 16px;
 }
 .Watch{
@@ -135,31 +142,20 @@
     color: #106eea;
 }
 
-#carouselExampleCaptions{
-    background-image: url(./image/salle-conference-est-vide_1048944-1954713.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    color: #f6f9fe;
-}
 
-#carouselExampleCaptions .carousel-item img{
-    height: 100px;
+.carousel-caption img{
     width: 100px;
+    height: 100px;
+    border: 4px solid grey;
+} 
+.carousel-caption{
+    position: absolute;
+    top: 300px;
 }
-
- /* .carousel img{
-    width: 90px;
-    border: 5px solid #555555;
-    border-radius: 50%;
-} */
-/* .carousel{
-    padding-top: 10%;
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+.carousel-inner{
+    position: relative;
+    overflow: hidden;
+}
 
 #Contact .location i{
     padding: 11px;
@@ -168,14 +164,6 @@
     border-radius: 50%;
 }
 
-/* .form-center{
-    display: flex;
-    justify-content: center;
-} */
-/* .form-center input{
-    width: 450px;
-    padding: 8px;
-} */
 
 
 #footer .font i{
@@ -187,22 +175,4 @@
 .chevron i{
     font-size: 8px;
     color:#106eea;
-}
-
-.carousel{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: center;
-    padding-top: 100px;
-    position: relative;
-    z-index: -1;
-}
-.ci-suuf {
-    display: none;
-
-}
-
-.ci-suuf i {
-    display: none;
 }
